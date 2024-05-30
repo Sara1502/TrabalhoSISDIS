@@ -13,7 +13,7 @@ while controle == 1:
   t1 = pow(2,n-1,n)
   t2 = pow(3,n-1,n)
   t3 = pow(4,n-1,n)
-  t4 = pow(5,n-1,n)
+  t4 = pow(5,n-1,n) 
   t5 = pow(6,n-1,n)
   if (t1 == 1) and (t2 == 1) and (t3 == 1) and (t4 == 1) and (t5 == 1):
     P = n
@@ -44,7 +44,7 @@ print ("Chave simetrica k1 : " , k1)
 print ("Chave simetrica k2 : " , k2)
 
 while i == 1:
-    a = random.randrange(127,chave)
+    a in range(127,chave)
     kebra1 = pow(B,a,P)
 
     if k1 == kebra1:
